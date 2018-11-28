@@ -22,7 +22,21 @@ button {
   height:75px;
   margin-bottom: 20px;
   background-color: green;
-  border-radius: 25%
+  transition: color 0 ease-in-out;
+  border-radius: 25%;
+  font-weight: 500;
+  font-size: 30px;
+}
+button:hover{
+  color: blue
+}
+@keyframes hover {
+  0%{
+
+  }
+  100% {
+    background-color: blue;
+  }
 }
 
 img {
