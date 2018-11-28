@@ -22,6 +22,7 @@ button {
   height:75px;
   margin-bottom: 20px;
   background-color: green;
+  border-radius: 25%
 }
 
 img {
