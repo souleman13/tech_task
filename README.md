@@ -1,8 +1,9 @@
 # Frontend Tech Task
-Author: Doug Soule
-github: https://github.com/souleman13/tech_task
-netlify deploy: https://condescending-joliot-73cb61.netlify.com
-Local Install: clone repo and open `index.html` in any browser
+* Author: Doug Soule
+* github: https://github.com/souleman13/tech_task
+* netlify deploy: https://condescending-joliot-73cb61.netlify.com
+* Local Install: clone repo and open `index.html` in any browser
+
 # What and Why
 
 The contraints of this tech challenge were very broad. I choose to do something simple and a little
