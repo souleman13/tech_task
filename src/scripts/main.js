@@ -5,9 +5,12 @@ async function buttonClick() {
     if (toggleButton.textContent === 'show') {
         toggleButton.textContent = 'hide'
         toggleArea.hidden = false
+        //add animation class
+        toggleButton.style.backgroundColor = 'red'
     } else {
         toggleButton.textContent = 'show'
         toggleArea.hidden = true
+        toggleButton.style.backgroundColor = 'green'
     }
 }
 
@@ -59,6 +62,9 @@ getUsers()
 toggleButton.onclick = buttonClick
 
 //TESTING THINGS
+
+//due to a CORS error I did not want to deal with due to time constraints, I moved a few of the tests into
+//this file. Checking out the src/testing dir for more.
 
 //test component behavior
 //button has onClick func

@@ -17,11 +17,11 @@ h1 {
   font-size: 60px;
   padding-bottom: 20px;
 }
-
 button {
   width:150px;
   height:75px;
   margin-bottom: 20px;
+  background-color: green;
 }
 
 img {
@@ -35,4 +35,18 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  animation: nudge 3s ease 1 alternate; 
+}
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
 }
